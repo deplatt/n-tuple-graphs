@@ -1,7 +1,7 @@
 # n-tuple-graphs
 
 ## Description
-This project is a visualizion tool for n-tuple graphs. It is built with the GraphStream 1.3 API for graph visualization, and Java Swing for the UI elements. FlatLaf IntelliJ is uses for the UI's look and feel.
+This project is a visualizion tool for n-tuple graphs. It is built with the GraphStream 1.3 API for graph visualization, and Java Swing for the UI elements. FlatLaf IntelliJ is uses for the UI's look and feel. It was created by Deven Platt, who can be contacted through devenplatt@gmail.com.
 
 ## Installation
 The project requires an installation of the Java 17 JDK and GraphStream 1.3. Once installed, pull the source code and run Client.java.
@@ -32,3 +32,6 @@ To the right of that button is the circulize button. This will disable the auto-
 The other layout control is the bipartize button. When clicked, the graph to checked to see if it is bipartite. If the graph is not bipartite, nothing happens. If it is, auto-layout is disabled, and the graph is displayed such that the nodes in each independent set are grouped together, and each set is displayed across the frame from the other.
 
 Finally, the refresh button on the right will reset the graph and these settings (except for "Show Labels"). This is particularly helpful when viewing the graph's auto-layout, as it will sometimes appear more natural after refreshing.
+
+## Known Bugs
+* The pathing mode will occasionally not show the maximum number of internally-disjoint paths between two nodes. It find one path that invalidates two or more other paths of the same length.
