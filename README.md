@@ -4,7 +4,9 @@
 This project is a visualizion tool for n-tuple graphs. It is built with the GraphStream 1.3 API for graph visualization, and Java Swing for the UI elements. FlatLaf IntelliJ is uses for the UI's look and feel. It was created by Deven Platt, who can be contacted through devenplatt@gmail.com.
 
 ## Installation
-The project requires an installation of the Java 17 JDK and GraphStream 1.3. Once installed, pull the source code and run Client.java.
+The project requires an installation of the Java 17 JDK and GraphStream 1.3. Once installed, pull the source code and run Client.java. If you are on Mac OS, run with the following VM argument:
+
+-Dsun.java2d.uiScale=100%
 
 ## Usage
 ### Graphs
