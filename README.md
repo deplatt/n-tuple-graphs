@@ -37,3 +37,4 @@ Finally, the refresh button on the right will reset the graph and these settings
 
 ## Known Bugs
 * The pathing mode will occasionally not show the maximum number of internally-disjoint paths between two nodes. It find one path that invalidates two or more other paths of the same length.
+* After deleting multiple modes in a row, the add node button will add that many nodes back, instead of just one.
